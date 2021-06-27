@@ -10,4 +10,4 @@ jobs:
     steps:
       - checkout
       - run: ./gradlew clean build
-      - run: gradle test
+      - run: ./gradlew test
